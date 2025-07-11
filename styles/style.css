@@ -279,3 +279,41 @@ body {
 .contact-btn:hover {
   background-color: #5855eb;
 }
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #6366f1;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav li:hover {
+  background-color: antiquewhite;
+}
