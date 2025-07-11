@@ -156,3 +156,81 @@ body {
   color: #6b7280;
   font-weight: 500;
 }
+
+.feedback-section {
+  background-color: #f8f9fa;
+  padding: 80px 50px;
+}
+
+.feedback-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px gray;
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.star {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.testimonial-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e5e7eb;
+}
+
+.reviewer-avatar img {
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937;
+}
