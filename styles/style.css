@@ -69,3 +69,49 @@ body {
 .stay-focused-btn:hover {
   background-color: #5855eb;
 }
+
+.action-section {
+  background-color: #f8f9fa;
+  padding: 80px 50px;
+}
+
+.action-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  gap: 60px;
+}
+
+.action-left h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.action-left p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.launch-preview-btn {
+  background-color: #6366f1;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.launch-preview-btn:hover {
+  background-color: #5855eb;
+}
+
+.action-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 10px 50px 50px black;
+}
